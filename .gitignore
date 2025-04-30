@@ -1,0 +1,16 @@
+/.elixir_ls
+/.fetch
+/_build
+/archives
+/cover
+/deps
+/doc
+/local
+/packages
+
+*.ez
+cache.ets
+erl_crash.dump
+dialyxir_*
+
+
