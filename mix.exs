@@ -36,6 +36,7 @@ defmodule PetStore.Mixfile do
   defp deps do
     [
       {:tesla, "~> 1.7"},
+      {:ecto, "~> 3.12"},
       {:ex_doc, "~> 0.30", only: :dev, runtime: false},
       {:dialyxir, "~> 1.3", only: [:dev, :test], runtime: false}
     ]
