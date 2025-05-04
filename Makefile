@@ -3,7 +3,7 @@
 SHELL := BASH_ENV=.rc /bin/bash --noprofile
 
 OAS_FILE ?= https://petstore3.swagger.io/api/v3/openapi.json
-GENERATOR_OPTS ?= --skip-validate-spec --additional-properties=packageName=elixir-petstore --additional-properties=invokerPackage=PetStore
+GENERATOR_OPTS ?= --skip-validate-spec --additional-properties=packageName=elixir-petstore --additional-properties=invokerPackage=PetStore --additional-properties=skipLicenseHeader=true
 
 all: generate compile check docs
 
