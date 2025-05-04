@@ -96,7 +96,7 @@ function openapi-generator-cli() {
     fi
     # Allow fallback to default if neither override nor .versions specified
     OPENAPI_GENERATOR_CLI_VERSION=${OPENAPI_GENERATOR_VERSION:-7.12.0}
-    DOCKER_IMAGE=openapitools/openapi-generator-cli:latest #v${OPENAPI_GENERATOR_VERSION}
+    DOCKER_IMAGE=openapitools/openapi-generator-cli:v${OPENAPI_GENERATOR_VERSION}
     #DOCKER_IMAGE=foo
     # Docker options
     if [ "$(uname)" = "Linux" ]; then
